@@ -1,4 +1,4 @@
-namespace Bsase_Datos_Model.MaedicusCpt.FoliosReceta
+namespace Bsase_Datos_Model.MaedicusCpt.ECEREMESAS
 {
     using System;
     using System.Collections.Generic;

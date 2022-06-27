@@ -1,0 +1,2 @@
+C:\Users\ivan.tapia\source\repos\Bsase_Datos_Model\Bsase_Datos_Model\obj\Debug\Bsase_Datos_Model.csproj.AssemblyReference.cache
+C:\Users\ivan.tapia\source\repos\Bsase_Datos_Model\Bsase_Datos_Model\obj\Debug\Bsase_Datos_Model.csproj.CoreCompileInputs.cache
