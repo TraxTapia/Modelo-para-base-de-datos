@@ -65,9 +65,9 @@ namespace Bsase_Datos_Model.GabyLab
                 .WithRequired(e => e.Subcategoria)
                 .WillCascadeOnDelete(false);
 
-            modelBuilder.Entity<ClasificacionxProducto>()
-                .Property(e => e.CveAutrizacion)
-                .IsUnicode(false);
+            //modelBuilder.Entity<ClasificacionxProducto>()
+            //    .Property(e => e.CveAutrizacion)
+            //    .IsUnicode(false);
 
             modelBuilder.Entity<ProductoxClasificacion>()
                 .Property(e => e.CodProducto)

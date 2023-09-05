@@ -1,0 +1,126 @@
+namespace Bsase_Datos_Model.ISSBD
+{
+    using System;
+    using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
+    using System.ComponentModel.DataAnnotations.Schema;
+    using System.Data.Entity.Spatial;
+
+    public partial class A_Mediaccess_Afiliado
+    {
+        [Key]
+        [Column(Order = 0)]
+        [StringLength(10)]
+        public string CodEmpresa { get; set; }
+
+        [Key]
+        [Column(Order = 1)]
+        [StringLength(50)]
+        public string CodAfiliado { get; set; }
+
+        [Key]
+        [Column(Order = 2)]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        public int Correlativo { get; set; }
+
+        [Key]
+        [Column(Order = 3)]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        public int CodParentesco { get; set; }
+
+        [StringLength(250)]
+        public string CodCalle { get; set; }
+
+        [StringLength(50)]
+        public string CodEstado { get; set; }
+
+        public int? CodEstatus { get; set; }
+
+        [Key]
+        [Column(Order = 4)]
+        [StringLength(255)]
+        public string Nombres { get; set; }
+
+        [StringLength(255)]
+        public string ApellidoPaterno { get; set; }
+
+        [StringLength(255)]
+        public string ApellidoMaterno { get; set; }
+
+        [StringLength(1)]
+        public string Sexo { get; set; }
+
+        [Column(TypeName = "smalldatetime")]
+        public DateTime? FechaNacimiento { get; set; }
+
+        public int? Edad { get; set; }
+
+        [Column(TypeName = "smalldatetime")]
+        public DateTime? FechaInicioServicio { get; set; }
+
+        [Column(TypeName = "smalldatetime")]
+        public DateTime? FechaFinServicio { get; set; }
+
+        public DateTime? FechaCargaMediAccess { get; set; }
+
+        [StringLength(10)]
+        public string membresia { get; set; }
+
+        [StringLength(30)]
+        public string plan { get; set; }
+
+        [StringLength(25)]
+        public string idcontratante { get; set; }
+
+        [StringLength(10)]
+        public string afiliacion { get; set; }
+
+        [StringLength(25)]
+        public string producto { get; set; }
+
+        [StringLength(10)]
+        public string tipo { get; set; }
+
+        [StringLength(5)]
+        public string cp { get; set; }
+
+        [StringLength(20)]
+        public string telefonos { get; set; }
+
+        [StringLength(50)]
+        public string email { get; set; }
+
+        [StringLength(150)]
+        public string municipio { get; set; }
+
+        [StringLength(50)]
+        public string Recibo { get; set; }
+
+        public int? CVE_ENT { get; set; }
+
+        public int? CVE_MUN { get; set; }
+
+        public int? CVE_LOC { get; set; }
+
+        public int? CVE_COL { get; set; }
+
+        [StringLength(50)]
+        public string Credencial { get; set; }
+
+        [StringLength(150)]
+        public string nombre_archivo { get; set; }
+
+        [StringLength(15)]
+        public string RFC { get; set; }
+
+        public int? CodEstadoCivil { get; set; }
+
+        [StringLength(20)]
+        public string NuevoCodAfiliado { get; set; }
+
+        public int? codGrupo { get; set; }
+
+        [StringLength(50)]
+        public string Poliza { get; set; }
+    }
+}

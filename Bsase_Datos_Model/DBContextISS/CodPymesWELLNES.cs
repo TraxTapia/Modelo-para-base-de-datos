@@ -6,7 +6,7 @@ namespace Bsase_Datos_Model.DBContextISS
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
 
-    public partial class CodPymesWELLNES
+    public partial class CodPymesWELLNES1
     {
         public int? codEmpresa { get; set; }
 
